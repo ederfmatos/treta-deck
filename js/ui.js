@@ -24,7 +24,7 @@ export function setTheme(theme) {
   root.classList.add(theme === 'light' ? 'theme-light' : 'theme-dark');
   try {
     localStorage.setItem(STORAGE_THEME_KEY, theme);
-  } catch (_) {}
+  } catch (_) { }
 }
 
 /**
@@ -35,7 +35,7 @@ export function getTheme() {
   try {
     const saved = localStorage.getItem(STORAGE_THEME_KEY);
     if (saved === 'light' || saved === 'dark') return saved;
-  } catch (_) {}
+  } catch (_) { }
   return 'dark';
 }
 

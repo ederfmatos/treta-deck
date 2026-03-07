@@ -1,3 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" aria-hidden="true">
-  <text x="0" y="28" font-family="Fredoka, sans-serif" font-size="24" font-weight="700" fill="currentColor">Treta Deck</text>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- background -->
+  <rect width="512" height="512" rx="80" fill="#0f1220"/>
+
+  <!-- back card -->
+  <g transform="rotate(-12 256 256)">
+    <rect x="150" y="130" width="210" height="260" rx="22"
+          fill="#1b1f35"
+          stroke="#4a4f6a"
+          stroke-width="6"/>
+  </g>
+
+  <!-- flame -->
+  <path d="M215 210
+           C205 190 230 180 225 160
+           C250 180 240 210 215 210Z"
+        fill="#ff7a00"/>
+
+  <!-- front card -->
+  <rect x="170" y="150" width="210" height="260" rx="22"
+        fill="white"
+        stroke="#e6e6e6"
+        stroke-width="6"/>
+
+  <!-- devil face -->
+  <circle cx="275" cy="270" r="70" fill="#ff2a2a"/>
+
+  <!-- horns -->
+  <path d="M225 210 C210 170 250 185 245 220Z" fill="#ff2a2a"/>
+  <path d="M325 210 C340 170 300 185 305 220Z" fill="#ff2a2a"/>
+
+  <!-- eyes -->
+  <path d="M245 265 Q260 250 275 265" stroke="#7a0000" stroke-width="8" fill="none"/>
+  <path d="M275 265 Q290 250 305 265" stroke="#7a0000" stroke-width="8" fill="none"/>
+
+  <!-- smile -->
+  <path d="M245 305 Q275 330 305 305" stroke="#7a0000" stroke-width="8" fill="none"/>
+
 </svg>
