@@ -2,7 +2,7 @@
   "name": "Treta Deck - Jogos Sociais +18",
   "short_name": "Treta Deck",
   "description": "Jogos sociais para adultos. Perguntas e situações para jogar presencialmente entre amigos.",
-  "start_url": "./index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "theme_color": "#111111",
   "background_color": "#111111",
