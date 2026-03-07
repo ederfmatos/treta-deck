@@ -123,9 +123,6 @@ export function renderGame(deck, currentCard, onNext, onChangeDeck, onThemeToggl
       <div class="header-inner">
         <span class="deck-name">${escapeHtml(deck.name)}</span>
         <button type="button" class="btn btn-secondary change-deck">Trocar deck</button>
-        <button type="button" class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
-          ${theme === 'dark' ? '☀️' : '🌙'}
-        </button>
       </div>
     </header>
     <main class="main game">
