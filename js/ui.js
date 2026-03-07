@@ -135,7 +135,6 @@ export function renderGame(deck, currentCard, onNext, onChangeDeck, onThemeToggl
       </div>
       <div class="game-actions">
         <button type="button" class="btn btn-primary next-card">Próxima pergunta</button>
-        <button type="button" class="btn btn-secondary change-deck-bottom">Trocar deck</button>
       </div>
     </main>
   `;
@@ -144,7 +143,7 @@ export function renderGame(deck, currentCard, onNext, onChangeDeck, onThemeToggl
     container.querySelector('.theme-toggle').addEventListener('click', onThemeToggle);
   }
   container.querySelectorAll('.next-card').forEach((btn) => btn.addEventListener('click', onNext));
-  container.querySelectorAll('.change-deck, .change-deck-bottom').forEach((btn) => btn.addEventListener('click', onChangeDeck));
+  container.querySelectorAll('.change-deck').forEach((btn) => btn.addEventListener('click', onChangeDeck));
 }
 
 function escapeHtml(text) {
