@@ -135,11 +135,7 @@ export function renderGame(deck, currentCard, onNext, onChangeDeck, onThemeToggl
       </div>
     </main>
   `;
-
-  if (onThemeToggle) {
-    container.querySelector('.theme-toggle').addEventListener('click', onThemeToggle);
-  }
-  container.querySelectorAll('.next-card').forEach((btn) => btn.addEventListener('click', onNext));
+ container.querySelectorAll('.next-card').forEach((btn) => btn.addEventListener('click', onNext));
   container.querySelectorAll('.change-deck').forEach((btn) => btn.addEventListener('click', onChangeDeck));
 }
 
