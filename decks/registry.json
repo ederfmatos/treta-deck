@@ -11,6 +11,12 @@
       "file": "amigos-merda.json",
       "name": "Amigos de Merda",
       "description": "Quem do grupo faria isso?"
+    },
+    {
+      "id": "segredos-merda",
+      "file": "segredos-merda.json",
+      "name": "Segredos de Merda",
+      "description": "Hora de revelar histórias e segredos que talvez devessem continuar escondidos."
     }
   ]
 }
