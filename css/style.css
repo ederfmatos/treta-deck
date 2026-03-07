@@ -44,6 +44,8 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.4;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .app {
