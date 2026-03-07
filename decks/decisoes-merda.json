@@ -1,0 +1,449 @@
+{
+  "id": "decisoes-merda",
+  "name": "Decisões de Merda",
+  "description": "Escolha entre duas situações absurdas",
+  "type": "choose",
+  "questions": [
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais usar internet",
+        "Nunca mais assistir filmes"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter soluço eterno",
+        "Sempre falar cantando"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre andar com pedra no sapato",
+        "Sempre ouvir alguém mastigando alto"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Andar 5km de joelho",
+        "Sempre que soltar um pum sair som de buzina"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Perder o celular para sempre",
+        "Nunca mais comer pizza"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Dormir só 4 horas por noite para sempre",
+        "Acordar às 5h da manhã todo dia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser perseguido por um ganso por 1 hora",
+        "Ficar preso no elevador com um estranho falador por 2 horas"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Comer um inseto por dia",
+        "Nunca mais usar redes sociais"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seu nome ser sempre escrito errado",
+        "Todo mundo esquecer sua data de aniversário"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Viver sem ar condicionado no verão",
+        "Viver sem aquecimento no inverno"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Só poder ouvir uma música pelo resto da vida",
+        "Só poder comer um prato pelo resto da vida"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser interrompido sempre que falar",
+        "Nunca conseguir terminar uma frase"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que usar roupas de outra pessoa por uma semana",
+        "Não tomar banho por uma semana"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre chegar 10 minutos atrasado",
+        "Sempre chegar 1 hora cedo"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seu Wi-Fi cair a cada 30 minutos",
+        "Sua bateria durar só 2 horas"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Esquecer o nome de todo mundo",
+        "Todo mundo esquecer seu nome"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Comer algo que caiu no chão",
+        "Beijar alguém que você não gosta"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Passar um dia no corpo do seu pior inimigo",
+        "Seu pior inimigo passar um dia no seu corpo"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais poder mentir",
+        "Todo mundo sempre saber quando você está mentindo"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter um vizinho que canta ópera às 6h",
+        "Ter um vizinho que faz reforma todo fim de semana"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Perder a memória dos últimos 5 anos",
+        "Esquecer tudo que aprendeu nos últimos 5 anos"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre ter uma mosca zumbindo no seu ouvido",
+        "Sempre ter um cisco no olho"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Viver sem café",
+        "Viver sem açúcar"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser famoso por algo vergonhoso",
+        "Nunca ser reconhecido por nada"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que contar uma piada ruim toda vez que conhecer alguém",
+        "Sempre rir no momento errado"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seus dedos serem sempre grudentos",
+        "Seus pés sempre cheirarem mal"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Só poder falar em perguntas",
+        "Só poder falar em rimas"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter um papagaio que repete tudo que você diz em público",
+        "Ter um cachorro que late toda vez que você mentir"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais poder usar emojis",
+        "Só poder se comunicar por emojis"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Dormir em uma cama desconfortável para sempre",
+        "Nunca dormir na mesma cama duas noites seguidas"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser obrigado a falar em voz alta todos os seus pensamentos",
+        "Ouvir os pensamentos de uma pessoa aleatória por um dia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Comer ketchup em tudo",
+        "Nunca mais comer ketchup"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que usar a mesma roupa íntima por uma semana",
+        "Ter que usar sapatos 2 números menores por um dia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seu celular tocar aleatoriamente em reuniões importantes",
+        "Seu estômago roncar alto em momentos de silêncio"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser perseguido por 10 patos",
+        "Ser perseguido por 1 urso (lento)"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais poder reclamar",
+        "Só poder reclamar, nunca elogiar"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Acordar com uma música aleatória na cabeça todo dia",
+        "Esquecer uma palavra comum todo dia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que terminar toda frase com 'entendeu?'",
+        "Ter que começar toda frase com 'na verdade'"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Viver sem Netflix",
+        "Viver sem delivery"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre perder as chaves",
+        "Sempre perder o celular"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter um botão que desfaz a última coisa que disse",
+        "Ter um botão que apaga a última coisa que a outra pessoa disse"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser invisível mas não poder tocar em nada",
+        "Poder tocar em tudo mas ser sempre visto"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais tomar banho quente",
+        "Nunca mais tomar sorvete"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Todo mundo achar que você tem 10 anos a mais",
+        "Todo mundo achar que você tem 10 anos a menos"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Só poder assistir filmes ruins",
+        "Só poder ouvir músicas que você odeia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter um espirro incontrolável toda vez que alguém mentir perto de você",
+        "Ter um soluço incontrolável toda vez que alguém disser seu nome"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Viver sem ar condicionado no Brasil",
+        "Viver sem café no Brasil"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seu ex ganhar na loteria",
+        "Seu ex ser seu chefe"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que falar em inglês com sotaque forte para sempre",
+        "Ter que escrever tudo com a mão não dominante"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Comer a mesma coisa no almoço pelo resto da vida",
+        "Nunca mais almoçar"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser bom em algo que você odeia",
+        "Ser péssimo em algo que você ama"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que postar uma selfie todo dia",
+        "Nunca mais poder tirar fotos"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre ter um fio de cabelo na boca",
+        "Sempre ter algo preso no dente"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Seus pais verem seu histórico do celular",
+        "Seus amigos verem suas conversas privadas"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Dormir no chão pelo resto da vida",
+        "Acordar às 4h da manhã pelo resto da vida"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais poder usar atalhos de teclado",
+        "Nunca mais poder usar o mouse"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter que cantar em vez de falar por um dia",
+        "Ter que sussurrar por um dia"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Todo mundo saber sua senha do banco",
+        "Todo mundo saber sua busca no Google"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ser rico e feio",
+        "Ser bonito e pobre"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Ter um gato que fala e só fala verdades dolorosas",
+        "Ter um cachorro que pensa que você é péssimo em tudo"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Nunca mais poder deletar mensagens",
+        "Todas suas mensagens serem lidas em voz alta"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Viver em um mundo sem música",
+        "Viver em um mundo sem filmes"
+      ]
+    },
+    {
+      "question": "O que você prefere?",
+      "options": [
+        "Sempre ter que esperar 5 minutos pelo próximo episódio",
+        "Nunca poder maratonar - só um episódio por dia"
+      ]
+    }
+  ]
+}

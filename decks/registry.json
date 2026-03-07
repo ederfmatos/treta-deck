@@ -1,0 +1,16 @@
+{
+  "decks": [
+    {
+      "id": "decisoes-merda",
+      "file": "decisoes-merda.json",
+      "name": "Decisões de Merda",
+      "description": "Escolha entre duas situações absurdas"
+    },
+    {
+      "id": "amigos-merda",
+      "file": "amigos-merda.json",
+      "name": "Amigos de Merda",
+      "description": "Quem do grupo faria isso?"
+    }
+  ]
+}

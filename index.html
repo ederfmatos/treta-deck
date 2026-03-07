@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('treta-deck-theme');
+        document.documentElement.classList.add(t === 'light' ? 'theme-light' : 'theme-dark');
+      } catch (_) {
+        document.documentElement.classList.add('theme-dark');
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description"
+    content="Jogos sociais para adultos - perguntas e situações para jogar presencialmente entre amigos. +18." />
+  <title>Treta Deck - Jogos Sociais +18</title>
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="manifest" href="pwa/manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="app" class="app">
+    <!-- Conteúdo injetado por JS -->
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,330 @@
+/**
+ * Treta Deck - Estilos globais
+ * Mobile-first, temas claro/escuro (estilo Cards Against Humanity).
+ */
+
+/* ---- Variáveis (tema escuro = padrão) ---- */
+:root,
+.theme-dark {
+  --bg: #111;
+  --bg-card: #1a1a1a;
+  --text: #f5f5f5;
+  --text-muted: #aaa;
+  --accent: #e0e0e0;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+.theme-light {
+  --bg: #f0f0f0;
+  --bg-card: #fff;
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --accent: #333;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ---- Base ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Fredoka', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* ---- Header ---- */
+.header {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.header-inner {
+  position: relative;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 0.5rem;
+  height: 48px;
+  width: auto;
+}
+
+.title {
+  margin: 0 0 0.25rem;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.subtitle {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.98);
+}
+
+/* Header na tela do jogo */
+.header-game .header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.header-game .deck-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  flex: 1;
+  min-width: 120px;
+}
+
+.header-game .theme-toggle {
+  position: static;
+}
+
+/* ---- Main ---- */
+.main {
+  width: 100%;
+  max-width: 600px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- Tela inicial: lista de decks ---- */
+.deck-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.deck-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+}
+
+.deck-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+.deck-card:active {
+  transform: translateY(0);
+}
+
+.deck-card-title {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.deck-card-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* ---- Tela do jogo ---- */
+.main.game {
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.game-card {
+  width: 100%;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+}
+
+.game-question {
+  margin: 0 0 1.25rem;
+  font-size: clamp(1.15rem, 4vw, 1.4rem);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+/* Opções (tipo choose) */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.option-card {
+  width: 100%;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem 1rem;
+  font-size: clamp(1rem, 3vw, 1.15rem);
+  text-align: center;
+  color: var(--text);
+  border: 2px solid var(--text-muted);
+}
+
+.option-divider {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+/* Botões de ação */
+.game-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 2px solid var(--text-muted);
+}
+
+.change-deck {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+/* ---- Tela de erro ---- */
+.error-screen {
+  max-width: 400px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-screen h2 {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+.error-screen p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.error-screen code {
+  background: var(--bg-card);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ---- Responsivo: telas maiores ---- */
+@media (min-width: 480px) {
+  .options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .option-card {
+    flex: 1;
+    min-width: 140px;
+    max-width: 260px;
+  }
+
+  .game-actions {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn {
+    max-width: 220px;
+  }
+}
