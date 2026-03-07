@@ -4,118 +4,419 @@
   "description": "Quem do grupo faria isso?",
   "type": "who",
   "questions": [
-    { "question": "Quem do grupo mandaria mensagem para o ex às 3 da manhã?" },
-    { "question": "Quem do grupo mentiria no currículo?" },
-    { "question": "Quem do grupo compraria curso milagroso de internet?" },
-    { "question": "Quem do grupo faria tatuagem bêbado?" },
-    { "question": "Quem do grupo entraria em pirâmide financeira?" },
-    { "question": "Quem do grupo já stalkeou o crush por mais de 2 horas?" },
-    { "question": "Quem do grupo fingiria estar doente para faltar no trabalho?" },
-    { "question": "Quem do grupo pegaria comida do prato dos outros sem perguntar?" },
-    { "question": "Quem do grupo já mentiu dizendo que estava 'a caminho' quando nem tinha saído de casa?" },
-    { "question": "Quem do grupo criaria uma conta fake para dar like nas próprias fotos?" },
-    { "question": "Quem do grupo já chorou em filme de romance e negou?" },
-    { "question": "Quem do grupo emprestaria dinheiro e ficaria cobrando todo dia?" },
-    { "question": "Quem do grupo sumiria no meio da festa sem se despedir?" },
-    { "question": "Quem do grupo já leu mensagem e deixou no vácuo de propósito?" },
-    { "question": "Quem do grupo contaria segredo jurado que não contaria?" },
-    { "question": "Quem do grupo chegaria atrasado no próprio aniversário?" },
-    { "question": "Quem do grupo já deu em cima do crush do amigo?" },
-    { "question": "Quem do grupo faria compra por impulso e se arrependeria na hora?" },
-    { "question": "Quem do grupo já inventou compromisso para sair de um rolê chato?" },
-    { "question": "Quem do grupo seria capaz de comer a comida que caiu no chão?" },
-    { "question": "Quem do grupo já mentiu a idade em app de relacionamento?" },
-    { "question": "Quem do grupo pegaria o celular do amigo para fuçar?" },
-    { "question": "Quem do grupo já falou mal de alguém e depois foi amigo da pessoa?" },
-    { "question": "Quem do grupo seria o primeiro a trair no jogo da verdade?" },
-    { "question": "Quem do grupo já usou desculpa de 'não vi a mensagem'?" },
-    { "question": "Quem do grupo faria dívida só para comprar algo inútil?" },
-    { "question": "Quem do grupo já deu unfollow e depois seguiu de novo?" },
-    { "question": "Quem do grupo seria capaz de acordar o amigo às 6h por besteira?" },
-    { "question": "Quem do grupo já comeu a última fatia de pizza sem avisar?" },
-    { "question": "Quem do grupo mentiria no 'onde você está?' para o parceiro?" },
-    { "question": "Quem do grupo seria o primeiro a vazar print de conversa?" },
-    { "question": "Quem do grupo já fingiu que a bateria acabou para encerrar ligação?" },
-    { "question": "Quem do grupo compraria algo só porque está em promoção?" },
-    { "question": "Quem do grupo já deu like em foto antiga do crush?" },
-    { "question": "Quem do grupo seria capaz de dormir no sofá do amigo por uma semana?" },
-    { "question": "Quem do grupo já disse 'vou em 5 min' e chegou 2 horas depois?" },
-    { "question": "Quem do grupo faria greve de fome por causa de birra?" },
-    { "question": "Quem do grupo já criou drama no grupo do WhatsApp?" },
-    { "question": "Quem do grupo seria o primeiro a pular a cerca?" },
-    { "question": "Quem do grupo já usou filtro em toda foto por um ano?" },
-    { "question": "Quem do grupo pegaria dinheiro emprestado e 'esqueceria' de devolver?" },
-    { "question": "Quem do grupo já mentiu sobre ter lido aquele livro?" },
-    { "question": "Quem do grupo seria capaz de passar 24h sem celular por aposta?" },
-    { "question": "Quem do grupo já deu em cima do garçom/garçonete?" },
-    { "question": "Quem do grupo faria trote pesado e acharia graça?" },
-    { "question": "Quem do grupo já enviou áudio de 5 min quando poderia escrever?" },
-    { "question": "Quem do grupo seria o último a pagar a rodada?" },
-    { "question": "Quem do grupo já disse que não bebe e no fim da noite estava bêbado?" },
-    { "question": "Quem do grupo compraria presente barato e diria que foi caro?" },
-    { "question": "Quem do grupo já fez body positive no outro e falou mal pelas costas?" },
-    { "question": "Quem do grupo seria capaz de passar vergonha por 100 reais?" },
-    { "question": "Quem do grupo já deu match e não respondeu de propósito?" },
-    { "question": "Quem do grupo sumiria no meio da viagem em grupo?" },
-    { "question": "Quem do grupo já usou a desculpa do cachorro comeu o dever de casa?" },
-    { "question": "Quem do grupo faria chantagem emocional para conseguir o que quer?" },
-    { "question": "Quem do grupo já mentiu no 'quanto você pesa?'?" },
-    { "question": "Quem do grupo seria o primeiro a vender a alma por fama?" },
-    { "question": "Quem do grupo já comeu a comida que era para todos?" },
-    { "question": "Quem do grupo pegaria o último gole de cerveja sem perguntar?" },
-    { "question": "Quem do grupo já disse que ia à academia e foi direto pro bar?" },
-    { "question": "Quem do grupo seria capaz de trocar o amigo por um like?" },
-    { "question": "Quem do grupo já deu em cima do ex do amigo?" },
-    { "question": "Quem do grupo faria dublê em vídeo íntimo e vazaria?" },
-    { "question": "Quem do grupo já mentiu sobre ter visto aquele filme?" },
-    { "question": "Quem do grupo seria o primeiro a puxar o tapete no trabalho?" },
-    { "question": "Quem do grupo já criou fake para testar o parceiro?" },
-    { "question": "Quem do grupo pegaria o Uber do amigo e deixaria ele pagando?" },
-    { "question": "Quem do grupo já disse 'não quero nada' e comeu metade do pedido?" },
-    { "question": "Quem do grupo seria capaz de passar a noite no mesmo quarto que o ex?" },
-    { "question": "Quem do grupo já deu em cima de alguém comprometido?" },
-    { "question": "Quem do grupo faria qualquer coisa por 15 minutos de fama?" },
-    { "question": "Quem do grupo já mentiu sobre a nota na prova?" },
-    { "question": "Quem do grupo seria o primeiro a trair no relacionamento?" },
-    { "question": "Quem do grupo já enviou mensagem no grupo errado?" },
-    { "question": "Quem do grupo sumiria da festa sem pagar a parte?" },
-    { "question": "Quem do grupo já disse que não gosta de alguém e está junto até hoje?" },
-    { "question": "Quem do grupo seria capaz de fingir que não viu o amigo na rua?" },
-    { "question": "Quem do grupo já usou foto de 10 anos atrás no Tinder?" },
-    { "question": "Quem do grupo faria chantagem para conseguir desconto?" },
-    { "question": "Quem do grupo já mentiu sobre ter ido na academia?" },
-    { "question": "Quem do grupo seria o último a admitir que errou?" },
-    { "question": "Quem do grupo já deu em cima do professor/professora?" },
-    { "question": "Quem do grupo pegaria o celular do amigo para ver as mensagens?" },
-    { "question": "Quem do grupo já disse 'vou parar de beber' e não parou?" },
-    { "question": "Quem do grupo seria o primeiro a vender os outros por benefício?" },
-    { "question": "Quem do grupo já comeu a sobremesa que era para dividir?" },
-    { "question": "Quem do grupo faria qualquer desafio por like?" },
-    { "question": "Quem do grupo já mentiu sobre onde estava no fim de semana?" },
-    { "question": "Quem do grupo seria capaz de passar 1 mês sem reclamar?" },
-    { "question": "Quem do grupo já deu em cima do amigo do amigo sem avisar?" },
-    { "question": "Quem do grupo sumiria do grupo do Zap quando precisassem de ajuda?" },
-    { "question": "Quem do grupo já usou a desculpa 'estava sem internet'?" },
-    { "question": "Quem do grupo faria dívida no nome dos pais?" },
-    { "question": "Quem do grupo já disse que ia fazer dieta e pediu pizza à noite?" },
-    { "question": "Quem do grupo seria o primeiro a criar fofoca no grupo?" },
-    { "question": "Quem do grupo já deu match com o amigo no Tinder e não disse?" },
-    { "question": "Quem do grupo pegaria o último pedaço de bolo no aniversário dos outros?" },
-    { "question": "Quem do grupo já mentiu sobre ter terminado a série?" },
-    { "question": "Quem do grupo seria capaz de passar o dia sem reclamar do trabalho?" },
-    { "question": "Quem do grupo já deu em cima de alguém no primeiro encontro do amigo?" },
-    { "question": "Quem do grupo faria qualquer coisa para não pagar a conta?" },
-    { "question": "Quem do grupo já disse 'não bebo mais' na segunda e bebeu na sexta?" },
-    { "question": "Quem do grupo seria o último a pedir desculpas depois de uma briga?" },
-    { "question": "Quem do grupo já stalkeou a nova namorada do ex?" },
-    { "question": "Quem do grupo sumiria na hora de ajudar a mudar?" },
-    { "question": "Quem do grupo já usou a desculpa 'meu celular caiu na água'?" },
-    { "question": "Quem do grupo faria greve de silêncio para ganhar discussão?" },
-    { "question": "Quem do grupo já mentiu sobre ter ido na terapia?" },
-    { "question": "Quem do grupo seria o primeiro a vazar segredo em brincadeira?" },
-    { "question": "Quem do grupo já deu em cima do irmão/irmã do amigo?" },
-    { "question": "Quem do grupo pegaria o controle remoto e não devolveria?" },
-    { "question": "Quem do grupo já disse que não come doce e devorou o bolo?" },
-    { "question": "Quem do grupo seria capaz de ficar 1 semana sem reclamar da vida?" }
+    {
+      "question": "Quem do grupo mandaria mensagem para o ex às 3 da manhã?"
+    },
+    {
+      "question": "Quem do grupo mentiria no currículo?"
+    },
+    {
+      "question": "Quem do grupo compraria curso milagroso de internet?"
+    },
+    {
+      "question": "Quem do grupo faria tatuagem bêbado?"
+    },
+    {
+      "question": "Quem do grupo entraria em pirâmide financeira?"
+    },
+    {
+      "question": "Quem do grupo já stalkeou o crush por mais de 2 horas?"
+    },
+    {
+      "question": "Quem do grupo fingiria estar doente para faltar no trabalho?"
+    },
+    {
+      "question": "Quem do grupo pegaria comida do prato dos outros sem perguntar?"
+    },
+    {
+      "question": "Quem do grupo já mentiu dizendo que estava 'a caminho' quando nem tinha saído de casa?"
+    },
+    {
+      "question": "Quem do grupo criaria uma conta fake para dar like nas próprias fotos?"
+    },
+    {
+      "question": "Quem do grupo já chorou em filme de romance e negou?"
+    },
+    {
+      "question": "Quem do grupo emprestaria dinheiro e ficaria cobrando todo dia?"
+    },
+    {
+      "question": "Quem do grupo sumiria no meio da festa sem se despedir?"
+    },
+    {
+      "question": "Quem do grupo já leu mensagem e deixou no vácuo de propósito?"
+    },
+    {
+      "question": "Quem do grupo contaria segredo jurado que não contaria?"
+    },
+    {
+      "question": "Quem do grupo chegaria atrasado no próprio aniversário?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do crush do amigo?"
+    },
+    {
+      "question": "Quem do grupo faria compra por impulso e se arrependeria na hora?"
+    },
+    {
+      "question": "Quem do grupo já inventou compromisso para sair de um rolê chato?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de comer a comida que caiu no chão?"
+    },
+    {
+      "question": "Quem do grupo já mentiu a idade em app de relacionamento?"
+    },
+    {
+      "question": "Quem do grupo pegaria o celular do amigo para fuçar?"
+    },
+    {
+      "question": "Quem do grupo já falou mal de alguém e depois foi amigo da pessoa?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a trair no jogo da verdade?"
+    },
+    {
+      "question": "Quem do grupo já usou desculpa de 'não vi a mensagem'?"
+    },
+    {
+      "question": "Quem do grupo faria dívida só para comprar algo inútil?"
+    },
+    {
+      "question": "Quem do grupo já deu unfollow e depois seguiu de novo?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de acordar o amigo às 6h por besteira?"
+    },
+    {
+      "question": "Quem do grupo já comeu a última fatia de pizza sem avisar?"
+    },
+    {
+      "question": "Quem do grupo mentiria no 'onde você está?' para o parceiro?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a vazar print de conversa?"
+    },
+    {
+      "question": "Quem do grupo já fingiu que a bateria acabou para encerrar ligação?"
+    },
+    {
+      "question": "Quem do grupo compraria algo só porque está em promoção?"
+    },
+    {
+      "question": "Quem do grupo já deu like em foto antiga do crush?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de dormir no sofá do amigo por uma semana?"
+    },
+    {
+      "question": "Quem do grupo já disse 'vou em 5 min' e chegou 2 horas depois?"
+    },
+    {
+      "question": "Quem do grupo faria greve de fome por causa de birra?"
+    },
+    {
+      "question": "Quem do grupo já criou drama no grupo do WhatsApp?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a pular a cerca?"
+    },
+    {
+      "question": "Quem do grupo já usou filtro em toda foto por um ano?"
+    },
+    {
+      "question": "Quem do grupo pegaria dinheiro emprestado e 'esqueceria' de devolver?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre ter lido aquele livro?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de passar 24h sem celular por aposta?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do garçom/garçonete?"
+    },
+    {
+      "question": "Quem do grupo faria trote pesado e acharia graça?"
+    },
+    {
+      "question": "Quem do grupo já enviou áudio de 5 min quando poderia escrever?"
+    },
+    {
+      "question": "Quem do grupo seria o último a pagar a rodada?"
+    },
+    {
+      "question": "Quem do grupo já disse que não bebe e no fim da noite estava bêbado?"
+    },
+    {
+      "question": "Quem do grupo compraria presente barato e diria que foi caro?"
+    },
+    {
+      "question": "Quem do grupo já fez body positive no outro e falou mal pelas costas?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de passar vergonha por 100 reais?"
+    },
+    {
+      "question": "Quem do grupo já deu match e não respondeu de propósito?"
+    },
+    {
+      "question": "Quem do grupo sumiria no meio da viagem em grupo?"
+    },
+    {
+      "question": "Quem do grupo já usou a desculpa do cachorro comeu o dever de casa?"
+    },
+    {
+      "question": "Quem do grupo faria chantagem emocional para conseguir o que quer?"
+    },
+    {
+      "question": "Quem do grupo já mentiu no 'quanto você pesa?'?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a vender a alma por fama?"
+    },
+    {
+      "question": "Quem do grupo já comeu a comida que era para todos?"
+    },
+    {
+      "question": "Quem do grupo pegaria o último gole de cerveja sem perguntar?"
+    },
+    {
+      "question": "Quem do grupo já disse que ia à academia e foi direto pro bar?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de trocar o amigo por um like?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do ex do amigo?"
+    },
+    {
+      "question": "Quem do grupo faria dublê em vídeo íntimo e vazaria?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre ter visto aquele filme?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a puxar o tapete no trabalho?"
+    },
+    {
+      "question": "Quem do grupo já criou fake para testar o parceiro?"
+    },
+    {
+      "question": "Quem do grupo pegaria o Uber do amigo e deixaria ele pagando?"
+    },
+    {
+      "question": "Quem do grupo já disse 'não quero nada' e comeu metade do pedido?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de passar a noite no mesmo quarto que o ex?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima de alguém comprometido?"
+    },
+    {
+      "question": "Quem do grupo faria qualquer coisa por 15 minutos de fama?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre a nota na prova?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a trair no relacionamento?"
+    },
+    {
+      "question": "Quem do grupo já enviou mensagem no grupo errado?"
+    },
+    {
+      "question": "Quem do grupo sumiria da festa sem pagar a parte?"
+    },
+    {
+      "question": "Quem do grupo já disse que não gosta de alguém e está junto até hoje?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de fingir que não viu o amigo na rua?"
+    },
+    {
+      "question": "Quem do grupo já usou foto de 10 anos atrás no Tinder?"
+    },
+    {
+      "question": "Quem do grupo faria chantagem para conseguir desconto?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre ter ido na academia?"
+    },
+    {
+      "question": "Quem do grupo seria o último a admitir que errou?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do professor/professora?"
+    },
+    {
+      "question": "Quem do grupo pegaria o celular do amigo para ver as mensagens?"
+    },
+    {
+      "question": "Quem do grupo já disse 'vou parar de beber' e não parou?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a vender os outros por benefício?"
+    },
+    {
+      "question": "Quem do grupo já comeu a sobremesa que era para dividir?"
+    },
+    {
+      "question": "Quem do grupo faria qualquer desafio por like?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre onde estava no fim de semana?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de passar 1 mês sem reclamar?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do amigo do amigo sem avisar?"
+    },
+    {
+      "question": "Quem do grupo sumiria do grupo do Zap quando precisassem de ajuda?"
+    },
+    {
+      "question": "Quem do grupo já usou a desculpa 'estava sem internet'?"
+    },
+    {
+      "question": "Quem do grupo faria dívida no nome dos pais?"
+    },
+    {
+      "question": "Quem do grupo já disse que ia fazer dieta e pediu pizza à noite?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a criar fofoca no grupo?"
+    },
+    {
+      "question": "Quem do grupo já deu match com o amigo no Tinder e não disse?"
+    },
+    {
+      "question": "Quem do grupo pegaria o último pedaço de bolo no aniversário dos outros?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre ter terminado a série?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de passar o dia sem reclamar do trabalho?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima de alguém no primeiro encontro do amigo?"
+    },
+    {
+      "question": "Quem do grupo faria qualquer coisa para não pagar a conta?"
+    },
+    {
+      "question": "Quem do grupo já disse 'não bebo mais' na segunda e bebeu na sexta?"
+    },
+    {
+      "question": "Quem do grupo seria o último a pedir desculpas depois de uma briga?"
+    },
+    {
+      "question": "Quem do grupo já stalkeou a nova namorada do ex?"
+    },
+    {
+      "question": "Quem do grupo sumiria na hora de ajudar a mudar?"
+    },
+    {
+      "question": "Quem do grupo já usou a desculpa 'meu celular caiu na água'?"
+    },
+    {
+      "question": "Quem do grupo faria greve de silêncio para ganhar discussão?"
+    },
+    {
+      "question": "Quem do grupo já mentiu sobre ter ido na terapia?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a vazar segredo em brincadeira?"
+    },
+    {
+      "question": "Quem do grupo já deu em cima do irmão/irmã do amigo?"
+    },
+    {
+      "question": "Quem do grupo pegaria o controle remoto e não devolveria?"
+    },
+    {
+      "question": "Quem do grupo já disse que não come doce e devorou o bolo?"
+    },
+    {
+      "question": "Quem do grupo seria capaz de ficar 1 semana sem reclamar da vida?"
+    },
+    {
+      "question": "Quem do grupo seria preso primeiro por um motivo completamente idiota?"
+    },
+    {
+      "question": "Quem tem mais chance de virar coach de algo que não domina?"
+    },
+    {
+      "question": "Quem provavelmente tem um fake no Instagram só para stalkear?"
+    },
+    {
+      "question": "Quem tem mais chance de mandar mensagem bêbado para ex às 3 da manhã?"
+    },
+    {
+      "question": "Quem do grupo tem mais cara de que já deu uma stalkeada pesada em alguém?"
+    },
+    {
+      "question": "Quem seria o primeiro a entrar em um esquema de pirâmide?"
+    },
+    {
+      "question": "Quem teria mais chance de gastar todo o dinheiro em algo completamente inútil?"
+    },
+    {
+      "question": "Quem provavelmente já mentiu para evitar um rolê?"
+    },
+    {
+      "question": "Quem teria mais chance de namorar alguém extremamente problemático?"
+    },
+    {
+      "question": "Quem provavelmente já mandou mensagem no grupo errado falando mal de alguém?"
+    },
+    {
+      "question": "Quem do grupo tem mais cara de quem seria cancelado na internet?"
+    },
+    {
+      "question": "Quem teria mais chance de participar de um reality show e passar vergonha?"
+    },
+    {
+      "question": "Quem provavelmente aceitaria dinheiro para fazer algo muito vergonhoso?"
+    },
+    {
+      "question": "Quem do grupo seria o pior político?"
+    },
+    {
+      "question": "Quem teria mais chance de criar uma mentira absurda e acabar acreditando nela?"
+    },
+    {
+      "question": "Quem parece mais provável de ter um histórico de pesquisa estranho no Google?"
+    },
+    {
+      "question": "Quem do grupo seria o primeiro a começar uma briga idiota em um bar?"
+    },
+    {
+      "question": "Quem tem mais cara de quem já chorou por algo muito ridículo?"
+    },
+    {
+      "question": "Quem teria mais chance de desaparecer por 3 dias em um rolê aleatório?"
+    },
+    {
+      "question": "Quem parece mais provável de virar meme na internet?"
+    },
+    {
+      "question": "Quem tem mais chance de confiar em alguém claramente suspeito?"
+    },
+    {
+      "question": "Quem provavelmente já foi pego em uma mentira enorme?"
+    },
+    {
+      "question": "Quem teria mais chance de mandar nude sem querer?"
+    },
+    {
+      "question": "Quem do grupo parece mais provável de virar líder de uma seita estranha?"
+    },
+    {
+      "question": "Quem provavelmente seria bloqueado por metade das pessoas que conhece?"
+    }
   ]
 }
