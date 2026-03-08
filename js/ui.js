@@ -102,6 +102,9 @@ export function renderGame(deck, currentCard, onNext, onChangeDeck, onThemeToggl
   setTheme(theme);
 
   const isChoose = deck.type === 'choose';
+  if (isChoose && !currentCard.question) {
+    currentCard.question = 'O que você prefere?'
+  }
   const hasTwoOptions = currentCard && currentCard.options && currentCard.options.length >= 2;
   const optionsHtml =
     isChoose && hasTwoOptions
